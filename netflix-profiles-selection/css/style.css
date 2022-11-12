@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0px;
+}
+
+h1#title-browse {
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 64px;
+}
+
+picture {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+img {
+    border-radius: 10px;
+    border: 4px solid rgb(20, 20, 20);
+}
+
+img:hover {
+    border: 4px solid rgb(253, 253, 253);
+}
+
+.container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-perfis-browse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+picture>label:hover {
+    color: rgb(253, 253, 253);
+}
+
+label {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 21px;
+    color: rgba(253, 253, 253, 0.50);
+}
+
+button {
+    background-color: rgb(20, 20, 20);
+    border: 1px groove rgba(253, 253, 253, 0.50);
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px 35px;
+}
+
+button>a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 21px;
+    color: rgba(253, 253, 253, 0.50);
+}
+
+.button-manager-profile:hover {
+    color: rgb(253, 253, 253);
+    border-color: rgb(253, 253, 253);
+}
