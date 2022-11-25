@@ -43,6 +43,29 @@ img#img-perfil {
 
 }
 
+#list-services {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    max-width: 1000px;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+.itens-services {
+    flex: 1;
+    margin: 10px;
+    min-width: 215px;
+    max-width: 250px;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+#section-our-services {
+    text-align: center;
+}
+
 footer {
     background-color: var(--cor4);
     margin: 10px 0px;
