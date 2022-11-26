@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+.lobe {
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2.lobe {
+    width: 400px;
+    font-size: 50px;
+    color: #333;
+    display: block;
+    margin: 70px auto 50px auto;
+    text-align: center;
+}
+
+main p {
+    font-family: 'DM Serif Display', serif;
+    width: 370px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.lobe span {
+    color: #04ddb2;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+}
+
+#btt-main {
+    background-color: #04ddb2;
+    border: none;
+    border-radius: 150px;
+    padding: 15px 50px;
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+    display: block;
+    margin: 50px auto 100px auto;
+
+
+}
+
+button {
+    background-color: #04ddb2;
+    border: none;
+    border-radius: 150px;
+    padding: 10px 30px;
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+
+main {
+    max-width: 1143px;
+    width: 1143px;
+    display: block;
+    margin: auto;
+}
+
+#video-img {
+    height: 100%;
+    min-width: 100%;
+    cursor: pointer;
+    margin: auto;
+    width: 1143px;
+    border-radius: 30px;
+}
+
+footer {
+    border-top: 0.5px solid rgba(0, 0, 0, .2);
+}
