@@ -38,9 +38,16 @@ header {
     padding: 15px;
 }
 
+header p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px;
+}
+
 nav {
     flex: 1;
     text-align: center;
+    padding-top: 10px;
 }
 
 nav a {
@@ -49,6 +56,22 @@ nav a {
     color: #333;
     font-family: 'DM Serif Display', serif;
     font-weight: normal;
+}
+
+nav a:visited {
+    color: black;
+    font-weight: bolder;
+}
+
+#btt-header {
+    background-color: #04ddb2;
+    border: none;
+    border-radius: 150px;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    color: #fff;
 }
 
 #btt-main {
@@ -60,18 +83,9 @@ nav a {
     color: #fff;
     display: block;
     margin: 50px auto 100px auto;
-
-
 }
 
-button {
-    background-color: #04ddb2;
-    border: none;
-    border-radius: 150px;
-    padding: 10px 30px;
-    font-family: 'DM Serif Display', serif;
-    color: #fff;
-}
+
 
 body {
     margin: 0px;
@@ -97,4 +111,52 @@ main {
 
 footer {
     border-top: 0.5px solid rgba(0, 0, 0, .2);
+    width: 1143px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+footer ul {
+    width: 1000px;
+    padding: 30px 80px;
+    columns: 4;
+    list-style-position: inside;
+    list-style-type: none;
+    line-height: 2em;
+    display: block;
+    margin: auto;
+
+}
+
+footer li::before {
+    content: attr(data-title);
+    font-weight: bold;
+}
+
+footer li {
+    margin: 2px 0px;
+    padding: 8px 0px 0px 0px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+
+span#logo-footer {
+    font-size: 1.5em;
+}
+
+div#list-icons {
+    display: inline;
+    position: absolute;
+    right: 5%;
+    top: 17%;
+}
+
+div#list-icons img {
+    margin-left: 5px;
+    width: 28px;
 }
