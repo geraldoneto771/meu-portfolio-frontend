@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background-color: rgb(192, 208, 223);
+    font: normal 15pt Arial;
+}
+div#container {
+    position: relative;
+    height: 85vh;
+}
+div#data {
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+div#hora {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(11, 163, 223);
+    text-align: center;
+    font: bold 36pt Arial;
+}
+div#hora p {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+span#textHours {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgb(22, 189, 139);
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    font: normal 16pt Arial;
+    color: white;
+    padding: 10px 50px 10px 50px;
+}
+
+div#minuto {
+    display: inline-block;
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(75, 182, 224);
+    text-align: center;
+    font: bold 36pt Arial;
+}
+div#minuto p {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+span#textMinutes {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgb(94, 192, 163);
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    font: normal 16pt Arial;
+    color: white;
+    padding: 10px 50px 10px 50px;
+}
+div#segundos {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(133, 200, 226);
+    text-align: center;
+    font: bold 36pt Arial;
+}
+div#segundos p {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+span#textSeconds {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgb(144, 192, 178);
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    font: normal 16pt Arial;
+    color: white;
+    padding: 10px 50px 10px 50px;
+}
+h2 {
+    font: bold 30pt Arial;
+    margin: 0px 0px 30px 0px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
