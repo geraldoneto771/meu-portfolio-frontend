@@ -29,15 +29,28 @@ header > h1 {
   font-weight: 500;
   font-size: 64px;
 }
+
+main {
+  display: block;
+  margin: auto;
+}
 #container {
+  min-width: 500px;
+  max-width: 1230px;
   position: relative;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  margin: auto;
 }
+
 .bloco-site {
   flex: 1;
-  width: 295px;
-  height: 296px;
+  min-width: 295px;
+  max-width: 295px;
+  min-height: 296px;
+  max-height: 296px;
   border-radius: 25px;
   background: #d9d9d9;
   margin: 46px;
